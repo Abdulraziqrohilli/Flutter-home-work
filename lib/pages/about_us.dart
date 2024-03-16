@@ -82,7 +82,7 @@ class AboutUs extends StatelessWidget {
                   height: 10,
                 ),
                 Text(
-                  "Our Objectives".tr,
+                  "Application Developer".tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
                       ? ui.TextDirection.ltr
@@ -102,7 +102,7 @@ class AboutUs extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Objectives include expanding coverage, engaging the audience, enhancing digital presence, and nurturing our dedicated team."
+                  "Abdulraziq Rohilli"
                       .tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
@@ -124,7 +124,7 @@ class AboutUs extends StatelessWidget {
                   height: 10,
                 ),
                 Text(
-                  "Our Mission".tr,
+                  "Email Address".tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
                       ? ui.TextDirection.ltr
@@ -144,7 +144,7 @@ class AboutUs extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "We provide accurate, impartial news to inspire dialogue and empower decision-making."
+                  "abdulraziqrohilli@gmail.com"
                       .tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
@@ -166,7 +166,7 @@ class AboutUs extends StatelessWidget {
                   height: 10,
                 ),
                 Text(
-                  "Our Vision".tr,
+                  "Phone Number".tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
                       ? ui.TextDirection.ltr
@@ -186,7 +186,7 @@ class AboutUs extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Our vision is to be a trusted source of news, fostering an informed and connected world."
+                  "+93771269657"
                       .tr,
                   textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
                   textDirection: languageID == 1
@@ -204,49 +204,6 @@ class AboutUs extends StatelessWidget {
                   ),
                 ),
 
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  "Our Goal".tr,
-                  textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
-                  textDirection: languageID == 1
-                      ? ui.TextDirection.ltr
-                      : ui.TextDirection.rtl,
-                  style: TextStyle(
-                    // height: 1.5,
-                    overflow: TextOverflow.ellipsis,
-
-                    // color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18.0,
-                    fontFamily: languageID == 1
-                        ? "Arial"
-                        : languageID == 4
-                            ? "Al-Emarah"
-                            : "Bahij",
-                  ),
-                ),
-                Text(
-                  "Our goals at Hurriyet focus on truth, diversity, community, and innovation."
-                      .tr,
-                  textAlign: languageID == 1 ? TextAlign.left : TextAlign.right,
-                  textDirection: languageID == 1
-                      ? ui.TextDirection.ltr
-                      : ui.TextDirection.rtl,
-                  style: TextStyle(
-                    // height: 1.5,
-
-                    // color: Colors.black,
-                    fontWeight: FontWeight.w500,
-                    fontSize: 16.0,
-                    fontFamily: languageID == 1
-                        ? "Arial"
-                        : languageID == 4
-                            ? "Al-Emarah"
-                            : "Bahij",
-                  ),
-                ),
                 SizedBox(
                   height: 10,
                 ),
